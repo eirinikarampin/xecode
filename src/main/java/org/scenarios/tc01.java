@@ -22,7 +22,7 @@ public class tc01 {
     void launchBrowser() {
         playwright = Playwright.create();
         browser = playwright.chromium().launch(new BrowserType.LaunchOptions()
-                .setHeadless(true)
+                .setHeadless(false)
                 .setSlowMo(500));
     }
 
