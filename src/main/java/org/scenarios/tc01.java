@@ -165,6 +165,7 @@ public class tc01 {
     @Test
     void VerifyResults() throws InterruptedException {
         //Verify all search results are within the specified criteria
+        System.out.println("VerifyResults");
         SearchAndSelectAllResults("Παγκρατι", 200, 700, 75, 150);
         int totalPage = page.locator("[data-testid=\"pagination\"]").count();
         System.out.println("Total page number:" + totalPage);
@@ -226,6 +227,7 @@ public class tc01 {
     @Test
     void CheckImages() throws InterruptedException {
         //No ad contains more than 30 pictures
+        System.out.println("CheckImages");
         SearchAndSelectAllResults("Παγκρατι", 200, 700, 75, 150);
         int totalPage = page.locator("[data-testid=\"pagination\"]").count();
         System.out.println("Total page number:" + totalPage);
@@ -254,6 +256,7 @@ public class tc01 {
     @Test
     void DescendingPriceResult() throws InterruptedException {
         //No ad contains more than 30 pictures
+        System.out.println("DescendingPriceResult");
         SearchAndSelectAllResults("Παγκρατι", 200, 700, 75, 150);
         int totalPage = page.locator("[data-testid=\"pagination\"]").count();
         System.out.println("Total page number:" + totalPage);
@@ -310,6 +313,7 @@ public class tc01 {
     @Test
     void ContactPhone() throws InterruptedException {
         // Verify contact number is not visible
+        System.out.println("ContactPhone");
         SearchAndSelectAllResults("Παγκρατι", 200, 700, 75, 150);
         int totalPage = page.locator("[data-testid=\"pagination\"]").count();
         System.out.println("Total page number:" + totalPage);
