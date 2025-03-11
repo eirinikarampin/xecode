@@ -123,6 +123,7 @@ public class tc01 {
         //Search for rent properties in Παγκράτι and related areas
         // between 200euro and 700euro
         // and between 75 and 150 size
+        System.out.println("Searchtest1");
         page.navigate("https://www.xe.gr/");
         //Accept cookies
         page.waitForSelector(".qc-cmp2-summary-buttons>[mode=\"primary\"]");
