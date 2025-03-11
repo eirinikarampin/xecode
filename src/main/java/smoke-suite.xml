@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SmokeTestsSuite">
+    <test name="SmokeTests">
+        <classes>
+            <class name="org.scenarios.tc01" />
+        </classes>
+    </test>
+</suite>
