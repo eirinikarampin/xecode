@@ -154,7 +154,7 @@ public class tc01 {
         page.locator("button[data-testid=\"size-filter-button\"]").click();
         page.locator("input[data-testid=\"minimum_size_input\"]").fill("75");
         page.locator("input[data-testid=\"maximum_size_input\"]").fill("150");
-        System.out.println("URl:" + page.url());
+        //System.out.println("URl:" + page.url());
 
         Locator areaTag = page.locator(".area-tag");
         String text = areaTag.innerText();
